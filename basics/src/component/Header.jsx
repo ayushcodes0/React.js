@@ -2,7 +2,7 @@ import React from 'react'
 
 const Header = () => {
   return (
-    <div>
+    <div style={{color:"white", backgroundColor: "teal", padding: "2rem"  }}>
       Hello I am Header
     </div>
   )
