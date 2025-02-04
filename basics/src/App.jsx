@@ -8,7 +8,6 @@ import UsingUseState from './component/UsingUseState'
 const App = () => {
   return (
     <div>
-      {/* <Header/> */}
       {/* 
       <MainPart/>
       <Footer/> */}
