@@ -8,11 +8,8 @@ const UsingUseState = () => {
     })
 
     const updateRating = ()=>{
-        const copyMovie={
-            ...movie,
-            rating: movie.rating + 1
-        }
-        setmovie(copyMovie);
+        
+        setmovie({...movie, rating: 2});
     }
     
 
@@ -25,4 +22,4 @@ const UsingUseState = () => {
   )
 }
 
-export default UsingUseState
+export default UsingUseState;    
