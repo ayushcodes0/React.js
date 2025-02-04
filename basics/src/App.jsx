@@ -8,9 +8,7 @@ import UsingUseState from './component/UsingUseState'
 const App = () => {
   return (
     <div>
-      {/* 
-      <MainPart/>
-      <Footer/> */}
+      {/* <Footer/>  */}
       <UsingUseState/>
     </div>
   )
