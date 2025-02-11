@@ -21,7 +21,7 @@ const ShoppingList = () => {
         <h1>Shopping List</h1>
       <form onSubmit={handleSubmit}>
         <input type="text" placeholder='Enter name' value={name} onChange={e=>setName(e.target.value)} />
-        <input type="number" placeholder='Enter quantity' value={quantity} onChange={e=>setName(e.target.value)} />
+        <input type="number" placeholder='Enter quantity' value={quantity} onChange={e=>setQuantity(e.target.value)} />
         <button type='submit'>Add Item</button>
       </form> 
       <ul>
