@@ -8,9 +8,9 @@ const UserProvider = ({children})=>{
     const updateName = (newName)=>{
         setUser(newName);
     }
-    return <userContext.Provider value = {{user, updateName}}>
+    return <useContext.Provider value = {{user, updateName}}>
         {children}
-    </userContext.Provider>
+    </useContext.Provider>
 }
 
 export {UserProvider, UserContext} ;
